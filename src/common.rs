@@ -909,7 +909,7 @@ pub fn get_api_server(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://www.aiyim.cn:21114".to_owned()
+    "https://www.aiyim.cn:41114".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
